@@ -1,3 +1,4 @@
+---
 name: Yaml checks
 on: push
 jobs: 
