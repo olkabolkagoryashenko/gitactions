@@ -3,7 +3,9 @@ extends: default
 rules:
   truthy:
     level: warning
-    allowed-values: [true, false]
+    allowed-values:
+      - true
+      - false
   trailing-spaces:
     level: error
   new-line-at-end-of-file:
