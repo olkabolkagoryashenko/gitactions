@@ -18,6 +18,7 @@
           pip install pyyaml
 
       - name: Validate YAML files
+        shell: bash
         run: |
           for file in $(find  "${{ inputs.file_path }}" ); do
             echo "Validating $file"
