@@ -16,6 +16,7 @@
       - name: Install dependencies
         run: |
           pip install pyyaml
+        shell: bash
 
       - name: Validate YAML files
         shell: bash
